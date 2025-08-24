@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bappa Private Website</title>
+  <script>
+    function login() {
+      let pass = prompt("Enter password:");
+      if(pass !== "bappa123") {
+        alert("Access Denied!");
+        window.location.href = "https://google.com";
+      }
+    }
+  </script>
+</head>
+<body onload="login()">
+  <h1>Welcome Bappa!</h1>
+  <p>এই ওয়েবসাইট শুধু তুই ইউজ করতে পারবি 😎</p>
+</body>
+</html>
